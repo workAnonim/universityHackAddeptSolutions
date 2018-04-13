@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 035790e8389e797488074fd39778fe26
+timeCreated: 1520073935
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: antena
+    100002: back_axle
+    100004: back_axle2
+    100006: back_left_wheel
+    100008: back_left_wheel2
+    100010: back_right_wheel
+    100012: back_right_wheel2
+    100014: //RootNode
+    100016: exhausts
+    100018: front_axle
+    100020: front_axle2
+    100022: front_left_door
+    100024: front_left_wheel
+    100026: front_left_wheel2
+    100028: front_right_door
+    100030: front_right_wheel
+    100032: front_right_wheel2
+    100034: kabina
+    100036: left_door
+    100038: left_light
+    100040: mashine_gun
+    100042: mashine_gun_fire_point
+    100044: mashine_gun_tower
+    100046: reference.smd
+    100048: right_door
+    100050: right_light
+    100052: root
+    100054: seat_left
+    100056: seat_right
+    100058: stearing_wheel
+    400000: antena
+    400002: back_axle
+    400004: back_axle2
+    400006: back_left_wheel
+    400008: back_left_wheel2
+    400010: back_right_wheel
+    400012: back_right_wheel2
+    400014: //RootNode
+    400016: exhausts
+    400018: front_axle
+    400020: front_axle2
+    400022: front_left_door
+    400024: front_left_wheel
+    400026: front_left_wheel2
+    400028: front_right_door
+    400030: front_right_wheel
+    400032: front_right_wheel2
+    400034: kabina
+    400036: left_door
+    400038: left_light
+    400040: mashine_gun
+    400042: mashine_gun_fire_point
+    400044: mashine_gun_tower
+    400046: reference.smd
+    400048: right_door
+    400050: right_light
+    400052: root
+    400054: seat_left
+    400056: seat_right
+    400058: stearing_wheel
+    4300000: reference.smd
+    9500000: //RootNode
+    13700000: reference.smd
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 0f0d451ff18e24ed1a88b108075f8e68
+timeCreated: 1435588852
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Baza_1
+    100002: Baza_2
+    100004: Cube.000
+    100006: Cube.011
+    100008: Island_1
+    100010: Island_2
+    100012: Palatka_1_11
+    100014: Palatka_2_4
+    100016: Polosa_1
+    100018: Polosa_1.001
+    100020: Polosa_1.002
+    100022: Polosa_2
+    100024: //RootNode
+    100026: Trees_1
+    100028: Trees_2
+    100030: Vyshka_1
+    100032: Vyshka_2
+    400000: Baza_1
+    400002: Baza_2
+    400004: Cube.000
+    400006: Cube.011
+    400008: Island_1
+    400010: Island_2
+    400012: Palatka_1_11
+    400014: Palatka_2_4
+    400016: Polosa_1
+    400018: Polosa_1.001
+    400020: Polosa_1.002
+    400022: Polosa_2
+    400024: //RootNode
+    400026: Trees_1
+    400028: Trees_2
+    400030: Vyshka_1
+    400032: Vyshka_2
+    2300000: Baza_1
+    2300002: Baza_2
+    2300004: Cube.000
+    2300006: Cube.011
+    2300008: Island_1
+    2300010: Island_2
+    2300012: Palatka_1_11
+    2300014: Palatka_2_4
+    2300016: Polosa_1
+    2300018: Polosa_1.001
+    2300020: Polosa_1.002
+    2300022: Polosa_2
+    2300024: Trees_1
+    2300026: Trees_2
+    2300028: Vyshka_1
+    2300030: Vyshka_2
+    3300000: Baza_1
+    3300002: Baza_2
+    3300004: Cube.000
+    3300006: Cube.011
+    3300008: Island_1
+    3300010: Island_2
+    3300012: Palatka_1_11
+    3300014: Palatka_2_4
+    3300016: Polosa_1
+    3300018: Polosa_1.001
+    3300020: Polosa_1.002
+    3300022: Polosa_2
+    3300024: Trees_1
+    3300026: Trees_2
+    3300028: Vyshka_1
+    3300030: Vyshka_2
+    4300000: Cube.000
+    4300002: Polosa_1.002
+    4300004: Polosa_1.001
+    4300006: Trees_2
+    4300008: Trees_1
+    4300010: Palatka_1_11
+    4300012: Vyshka_1
+    4300014: Baza_2
+    4300016: Polosa_2
+    4300018: Island_2
+    4300020: Polosa_1
+    4300022: Island_1
+    4300024: Baza_1
+    4300026: Palatka_2_4
+    4300028: Vyshka_2
+    4300030: Cube.011
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 22
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
