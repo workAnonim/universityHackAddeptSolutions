@@ -70,11 +70,14 @@ namespace Vuforia
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
-
+			Debug.Log (FindObjectOfType<ContolStartVr> ().name);
+			if(mTrackableBehaviour.TrackableName=="vostok-1")
+			FindObjectOfType<ContolStartVr> ().ActiveCanvas ();
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
             {
                 component.enabled = true;
+				Debug.Log (FindObjectOfType<ContolStartVr> ().name);
             }
 
             // Enable colliders:
@@ -91,7 +94,9 @@ namespace Vuforia
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
-
+			Debug.Log (FindObjectOfType<ContolStartVr> ().name);
+			if(mTrackableBehaviour.TrackableName=="vostok-1")
+			FindObjectOfType<ContolStartVr> ().ActiveCanvas ();
             // Disable rendering:
             foreach (Renderer component in rendererComponents)
             {
