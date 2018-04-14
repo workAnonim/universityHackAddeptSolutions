@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="sputnik1" size="5.000000 3.750000" />
+    <ImageTarget name="supercoolpics_01_04102012150420" size="5.000000 6.392010" />
     <ImageTarget name="window3" size="5.000000 5.680000" />
     <ImageTarget name="window2" size="5.000000 3.928571" />
     <ImageTarget name="window1" size="5.000000 4.043210" />
