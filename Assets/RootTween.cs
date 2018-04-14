@@ -8,7 +8,9 @@ public class RootTween : MonoBehaviour {
 	void Start () {
 		
 	}
-	
+	public void VostokAnimateEneble(){
+		gameObject.GetComponent<Animator> ().enabled = false;
+	}
 	// Update is called once per frame
 	void Update () {
 		gameObject.transform.Rotate (new Vector3 (0f, speedRootX, 0f));

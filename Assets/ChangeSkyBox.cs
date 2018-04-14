@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class ChangeSkyBox : MonoBehaviour {
 	[SerializeField] Material StarSkyBox;
+	[SerializeField] Material StarSkyBox2;
 	[SerializeField] AudioSource sound;
 	[SerializeField] AudioClip Polet;
 	[SerializeField] GameObject Earth;
 	[SerializeField] VRController objVRController;
 	public float speed=1;
 	// Use this for initialization
-	void Start () {
+	public void Start () {
 		//RenderSettings.skybox.Lerp (a1, a2, speed * Time.deltaTime);
 		//RenderSettings.skybox=a2;
+		RenderSettings.skybox=StarSkyBox2;
 	}
 	public void ToNight(){
 		RenderSettings.skybox=StarSkyBox;
@@ -22,6 +24,9 @@ public class ChangeSkyBox : MonoBehaviour {
 		sound.Play ();
 		Earth.SetActive (true);
 		Invoke ("ExitSceneGagarin", 75f);
+	}
+	public void Night(){
+		RenderSettings.skybox=StarSkyBox;
 	}
 	void ExitSceneGagarin(){
 		objVRController.ActiveVrController ();

@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class VRController : MonoBehaviour {
 	bool activeVr;
+	public GameObject SinpleMode;
+	public GameObject arMode;
+	public ChangeSkyBox skybox;
 	public GameObject Cam;
 	public Animator Light;
 	public GameObject Cam2;
@@ -17,6 +20,17 @@ public class VRController : MonoBehaviour {
 		activeVr = false;
 		count2=15;
 		counte.text = count2.ToString ();
+	}
+	public void ActiveSimpleMode(){
+		if (SinpleMode.activeSelf) {
+			arMode.SetActive (true);
+			SinpleMode.SetActive (false);
+			skybox.Start ();
+		} else {
+			arMode.SetActive (false);
+			SinpleMode.SetActive (true);
+			skybox.Night ();
+		}
 	}
 	public void ActiveVrController(){
 		if (activeVr) {
