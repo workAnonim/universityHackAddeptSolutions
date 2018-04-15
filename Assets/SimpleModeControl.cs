@@ -73,6 +73,7 @@ public class SimpleModeControl : MonoBehaviour {
 			break;
 		case 6:
 			camera.Play ("CamPos7");
+			vostok1.GetComponent<Animator> ().Play ("Vostok1Reload");
 			listArrow [step-1].SetActive (false);
 			helpFade.SetActive (false);
 			desciptionHead.text = "Восток-1";
@@ -86,7 +87,7 @@ public class SimpleModeControl : MonoBehaviour {
 		if (step != 0) {
 			listArrow [step - 1].SetActive (true);
 		} else {
-			vostok1.GetComponent<Animator> ().Play ("Vostok1Reload");
+			
 			vostok1.GetComponent<RootTween> ().enabled = true;
 		}
 

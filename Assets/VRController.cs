@@ -34,13 +34,16 @@ public class VRController : MonoBehaviour {
 	}
 	public void ActiveVrController(){
 		if (activeVr) {
-			
+			Message.SetActive (false);
 			Cam2.SetActive (false);
 			Cam.SetActive (true);
 			disableVr ();
 			activeVr = false;
 			Light.enabled = false;
 		} else {
+			skybox.Start ();
+			count2=15;
+			counte.text = count2.ToString ();
 			Message.SetActive (true);
 			Invoke ("delayStartVr", 1f);
 		}
