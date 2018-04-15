@@ -73,6 +73,8 @@ namespace Vuforia
 			Debug.Log (FindObjectOfType<ContolStartVr> ().name);
 			if(mTrackableBehaviour.TrackableName=="vostok-1")
 			FindObjectOfType<ContolStartVr> ().ActiveCanvas ();
+			if (mTrackableBehaviour.TrackableName == "VostokShema")
+				FindObjectOfType<VRController> ().ActiveSimpleMode();
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
             {
